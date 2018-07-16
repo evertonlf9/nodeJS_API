@@ -1,0 +1,37 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/src/index.html",
+  "scripts": {
+    "start-server": "node src/server.js",
+    "test": "echo \"Error no test specified\" && exit 1",
+    "build": "npm i && node_modules/.bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.mstech.com.br:"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": {
+    "name": "Everton Luis Ferriera",
+    "email": "everton.ferreira@mstech.com.br"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.5",
+    "jsonwebtoken": "^8.0.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.11.13",
+    "morgan": "^1.9.0",
+    "mssql": "^4.1.0",
+    "mysql": "^2.14.1",
+    "socket.io": "^2.1.1",
+    "winston": "^2.4.2"
+  }
+}
